@@ -8,7 +8,7 @@ def create_outlet():
     n_of_channels = 1                                                                       # Single-channel data
     sampling_rate = 0                                                                       # 0Hz = 0 samples / second -> Indicates irregular sampling rate
     value_type = 'string'                                                                   # The type that all stream values should be. This time we're sending strings.
-    outlet_id = 'workshop_ex_a'                                                      # An unique identifier used to resolve streams when pulling data from the LSL network
+    outlet_id = 'workshop_ex_a'                                                             # An unique identifier used to resolve streams when pulling data from the LSL network
 
     stream = StreamInfo(name, type, n_of_channels, sampling_rate, value_type, outlet_id)    # Establish the details of the stream
     outlet = StreamOutlet(stream)                                                           # Create the outlet
