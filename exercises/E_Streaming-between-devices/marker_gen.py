@@ -5,7 +5,7 @@ import random
 def create_outlet():
     # TODO: Define StreamInfo below
 
-    stream = StreamInfo(name, type, n_of_channels, sampling_rate, value_type, outlet_id)    # Establish the details of the stream
+    stream = StreamInfo(name, stream_type, n_of_channels, sampling_rate, value_type, outlet_id)    # Establish the details of the stream
     outlet = StreamOutlet(stream)                                                           # Create the outlet
 
     return outlet
@@ -18,5 +18,5 @@ def output_marker(marker_text, target_outlet):                                  
 outlet = create_outlet()
 
 while True:
-    output_marker(marker_text = 'heyo', target_outlet = outlet)
+    output_marker(marker_text = '', target_outlet = outlet)
     time.sleep(1)
