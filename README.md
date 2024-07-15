@@ -19,3 +19,7 @@ Materials used to develop the workshop:
 - [liblsl reference](https://labstreaminglayer.readthedocs.io/projects/liblsl/index.html#)
 - [pylsl](https://github.com/labstreaminglayer/pylsl) example scripts
 - [bitalino python API sampling example](https://github.com/BITalinoWorld/revolution-python-api/blob/master/samples/sample.py)
+
+## License
+
+The contents of this repository are made public under the [Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).
