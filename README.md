@@ -9,3 +9,13 @@ The goal of this workshop is to give you an overview of what LSL is and what it 
 - [Streaming](./02_streaming.ipynb) contains an introduction to setting up an LSL server and streaming data and markers to it.
 - [Logging](./03_logging.ipynb) introduces a simple way to log streamed data with timestamps created by LSL.
 - [Advanced](./04_advanced.ipynb) contains a couple of ideas for configuring LSL, e.g. for use with the BITalino biosignal device or web interfaces.
+
+## Acknowledgements
+
+The first version of the workshop was created by [Otso Haavisto](https://github.com/otsha) at the Aalto University Engineering Psychology research group ([GitHub](https://github.com/aaltoengpsy) / [Website](http://human-ai-interaction.com/)).
+
+Materials used to develop the workshop:
+- [Lab Streaming Layer documentation](https://labstreaminglayer.readthedocs.io/)
+- [liblsl reference](https://labstreaminglayer.readthedocs.io/projects/liblsl/index.html#)
+- [pylsl](https://github.com/labstreaminglayer/pylsl) example scripts
+- [bitalino python API sampling example](https://github.com/BITalinoWorld/revolution-python-api/blob/master/samples/sample.py)
